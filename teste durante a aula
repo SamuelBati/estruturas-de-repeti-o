@@ -1,0 +1,19 @@
+#include<stdio.h>
+main(){
+
+  int num= 1;
+  int contador= 0;
+  int res;
+
+  while(num<=10){
+    printf("%d", num);
+    num++;
+  }
+
+  while(contador<=10){
+    res = num * contador;
+    printf("%d x %d= %d", num, contador, res);
+    contador++;
+  }
+
+}
